@@ -1,0 +1,75 @@
+Customer retention is one of the most critical challenges for subscription-based and service businesses. Losing customers directly impacts revenue, profitability, and long-term growth.
+This project performs an end-to-end data analysis to identify the key factors driving customer churn and quantify its financial impact. 
+The goal is to generate actionable insights that help businesses improve customer retention strategies and reduce revenue loss.
+
+Business Problem
+The company observed a steady decline in active customers over time, leading to reduced recurring revenue.
+
+Key objectives:
+Measure overall churn rate
+Identify behavioural patterns of churned customers
+Determine major drivers influencing churn
+Estimate revenue loss caused by churn
+Segment customers based on risk and value
+
+Dataset Description
+The dataset contains customer behavioural, demographic, and subscription information, including:
+
+Customer demographics (age, gender, region, income)
+Subscription and payment details
+Usage behaviour metrics
+Support interaction history
+Satisfaction scores
+Revenue indicators
+Churn status (target variable)
+
+Business Understanding
+
+Defined key performance indicators:
+Churn Rate
+Customer Lifetime Value (CLV)
+Retention Rate
+Revenue Loss Percentage
+
+
+Data Preparation (SQL)
+
+Performed:
+Data backup creation
+Data cleaning and type conversions
+Missing value checks
+Duplicate record validation
+Data integrity verification
+Generated key KPIs using advanced SQL queries.
+
+
+Exploratory Data Analysis (Python)
+
+Performed:
+Churn distribution analysis
+Revenue comparison between churned vs active customers
+Behavioural pattern analysis
+Correlation analysis
+Identified initial churn indicators.
+
+
+Churn Risk Scoring
+
+Developed a risk scoring system based on:
+Customer satisfaction levels
+Login activity patterns
+Support ticket frequency
+Recency of last login
+
+Customers were segmented into:
+Low Risk
+Medium Risk
+High Risk
+
+
+Key Insights
+
+A significant portion of customers churn after low engagement periods
+Customers with lower satisfaction scores show much higher churn probability
+High support interaction frequency strongly correlates with churn
+Revenue loss is heavily concentrated among medium and high-value customers
